@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movieItem {
+  width: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #a7acb0;
+  border-radius: 10px;
+
+  text-decoration: none;
+  font: bold 20px Arial, sans-serif;
+  text-shadow: 0px 1px 3px black;
+  background-color: #d5d8dc;
+  color: #ffc300;
+
+  transition: 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.movieItem:hover,
+.movieItem:focus {
+  transform: scale(1.05);
+}

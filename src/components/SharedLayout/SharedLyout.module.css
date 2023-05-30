@@ -1,0 +1,34 @@
+.container {
+  max-width: 1280;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #a7acb0;
+  border-bottom-width: 2px;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pageLink {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 20px 20px;
+  font-size: 30px;
+  color: rgb(10, 3, 0);
+}
+
+.pageLink:hover,
+NavLink:focus {
+  color: #ffc300;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,40 @@
+.creditsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.creditsItem {
+  border: 2px solid #ffc300;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  background-color: #d5d8dc;
+  box-shadow: 0px 0px 10px #ffc300;
+}
+
+.actorImg {
+  height: 300px;
+  width: 200px;
+}
+
+.actor {
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.character {
+  margin: 0 auto;
+  padding: 5px 0;
+  color: #ffc300;
+  font-weight: 700;
+  text-shadow: 1px 0px 3px black;
+}
+
+.creditsInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 5px;
+}

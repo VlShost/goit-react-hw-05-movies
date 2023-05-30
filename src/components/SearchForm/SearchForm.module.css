@@ -1,0 +1,29 @@
+.formInput {
+  width: 300px;
+  padding: 11px;
+  margin-left: 60px;
+  border: 2px solid #ffc300;
+  border-radius: 10px;
+}
+
+.formBtn {
+  width: 100px;
+  height: 40px;
+
+  margin: 5px 10px;
+
+  font-weight: 700;
+  color: black;
+
+  background-color: #ffc300;
+
+  border: 1px solid #ffc300;
+  border-radius: 10px;
+
+  transition: 0.2s;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  background-color: #dfab00;
+}
